@@ -283,8 +283,8 @@ if (mysqli_num_rows($result) > 0) {
         <div class="col col-xm-12 col-md-8 m-1 alert alert-secondary  text-light" 
         style="height: 5rem;background-color:black;border-left: solid 3px #EBBA59;border-top: 6px solid white;border-right: solid 1px white;border-bottom: 6px solid white" 
         >        
-            <p style="font-size:12px;margin:0;color:#F4A733;">SUBSCRIPTION BALANCE</p>
-            <span>$<?php echo number_format($sub_balance, 2) ?></span>
+            <p style="font-size:12px;margin:0;color:#F4A733;">BTC EQUIVALENT</p>
+            <span><?php echo file_get_contents("https://blockchain.info/tobtc?currency=USD&value=$balance") ?></span>
         </div>
         
         <div class="col col-xm-12 col-md-8 m-1 alert alert-secondary  text-light" 
