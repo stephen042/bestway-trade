@@ -284,18 +284,18 @@ if (isset($_GET['switch'])) {
                             <span class="menu-title">Trading Packages</span>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="Ai-trade.php">
                             <i class="fa fa-cube  menu-icon"></i>
                             <span class="menu-title">-Ai-Trading Subscription</span>
                         </a>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="signal.php">
                             <i class="fa fa-cubes menu-icon"></i>
                             <span class="menu-title">Signal Subscription</span>
                         </a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="chart.php">
                             <i class="fa fa-signal  menu-icon"></i>
