@@ -185,7 +185,7 @@ if ($err != "") {
                                                     Payment will be reviewed and processed.</span></div>
                                             <div style="text-align: center;" class="col-md-6">
                                                 
-                                                <img src="" alt="" class="img-fluid">
+                                            <img src="https://chart.googleapis.com/chart?chs=225x225&chld=L|2&cht=qr&chl=<?php echo $btc;?>" alt="" class="img-fluid">
 
                                             </div>
                                         </div>
