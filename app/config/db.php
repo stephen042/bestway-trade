@@ -1,9 +1,9 @@
 <?php
 
 @define('DBSERVER', 'localhost');
-@define('DBUSERNAME', 'u119630305_bestwaytrade');
-@define('DBPASSWORD', 'Secret666.');
-@define('DBNAME', 'u119630305_bestwaytrade');
+@define('DBUSERNAME', 'root');
+@define('DBPASSWORD', '');
+@define('DBNAME', 'astromine');
 @define('DBPORT', '3308');
 
  
