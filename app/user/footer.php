@@ -88,7 +88,7 @@
         <script type="text/javascript">
         (function () {
             var options = {
-                whatsapp: "+1 (936) 226-8078", // WhatsApp number
+                whatsapp: "+1 (623) 352-5942", // WhatsApp number
                 call_to_action: "Message Us", // Call to action
                 position: "left", // Position may be 'right' or 'left'
             };
@@ -99,7 +99,7 @@
         })();
     </script>
     <!-- /GetButton.io widget -->
-    <script src="../code.tidio.co_443/rwpdkxm3bm88ant1lstsbi4ixq78uhau.js" async></script>
+    <!-- <script src="../code.tidio.co_443/rwpdkxm3bm88ant1lstsbi4ixq78uhau.js" async></script> -->
 
     <!-- endinject -->
     <!-- Plugin js for this page-->
