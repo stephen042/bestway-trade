@@ -56,26 +56,19 @@ if (isset($_GET['switch'])) {
             font-size: 12px !important;
         }
     </style>
-    <!-- Smartsupp Live Chat script -->
+    
+    <!-- crisp Live Chat -->
     <script type="text/javascript">
-        var _smartsupp = _smartsupp || {};
-        _smartsupp.key = '5211ff884b70b768b71c593f3556fdd0a59b4a30';
-        window.smartsupp || (function(d) {
-            var s, c, o = smartsupp = function() {
-                o._.push(arguments)
-            };
-            o._ = [];
-            s = d.getElementsByTagName('script')[0];
-            c = d.createElement('script');
-            c.type = 'text/javascript';
-            c.charset = 'utf-8';
-            c.async = true;
-            c.src = 'https://www.smartsuppchat.com/loader.js?';
-            s.parentNode.insertBefore(c, s);
-        })(document);
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "ec939608-ebcf-4fca-877e-a93f696b171b";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
     </script>
-    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
-
 
 </head>
 
