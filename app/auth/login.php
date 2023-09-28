@@ -67,7 +67,7 @@ if (isset($_POST['login_action'])) {
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from forexmetatrade.net/signin.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Sep 2023 23:46:16 GMT -->
+<!-- Mirrored from BestWayTrade.net/signin.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Sep 2023 23:46:16 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
@@ -415,7 +415,7 @@ if (isset($_POST['login_action'])) {
     <!-- end Nav -->
   <div class="other-banner d-flex">
     <div class="container my-auto mx-auto">
-      <h2><strong>SignIn and the join millions who have chosen ForexMetaTrade</strong></h2>
+      <h2><strong>SignIn and the join millions who have chosen BestWayTrade</strong></h2>
     </div>
   </div>
   <div class="other-content">
@@ -488,6 +488,6 @@ if (isset($_POST['login_action'])) {
 <!-- end script -->
 </body>
 
-<!-- Mirrored from forexmetatrade.net/signin.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Sep 2023 23:46:19 GMT -->
+<!-- Mirrored from BestWayTrade.net/signin.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Sep 2023 23:46:19 GMT -->
 
 </html>
