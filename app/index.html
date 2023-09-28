@@ -388,18 +388,19 @@
                     <div class="tradingview-widget-container">
                         <div class="tradingview-widget-container__widget"></div>
                         <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
-                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
                         {
                         "colorTheme": "dark",
                         "dateRange": "12M",
+                        "exchange": "NASDAQ",
                         "showChart": true,
                         "locale": "en",
+                        "width": "100%",
+                        "height": "400",
                         "largeChartUrl": "",
                         "isTransparent": false,
                         "showSymbolLogo": false,
                         "showFloatingTooltip": false,
-                        "width": "600",
-                        "height": "400",
                         "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
                         "plotLineColorFalling": "rgba(41, 98, 255, 1)",
                         "gridLineColor": "rgba(240, 243, 250, 0)",
@@ -408,117 +409,7 @@
                         "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
                         "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
                         "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
-                        "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
-                        "tabs": [
-                        {
-                            "title": "Indices",
-                            "symbols": [
-                            {
-                                "s": "FOREXCOM:SPXUSD",
-                                "d": "S&P 500"
-                            },
-                            {
-                                "s": "FOREXCOM:NSXUSD",
-                                "d": "US 100"
-                            },
-                            {
-                                "s": "FOREXCOM:DJI",
-                                "d": "Dow 30"
-                            }
-                            ],
-                            "originalTitle": "Indices"
-                        },
-                        {
-                            "title": "Futures",
-                            "symbols": [
-                            {
-                                "s": "CME_MINI:ES1!",
-                                "d": "S&P 500"
-                            },
-                            {
-                                "s": "CME:6E1!",
-                                "d": "Euro"
-                            },
-                            {
-                                "s": "COMEX:GC1!",
-                                "d": "Gold"
-                            },
-                            {
-                                "s": "NYMEX:CL1!",
-                                "d": "Oil"
-                            },
-                            {
-                                "s": "NYMEX:NG1!",
-                                "d": "Gas"
-                            },
-                            {
-                                "s": "CBOT:ZC1!",
-                                "d": "Corn"
-                            }
-                            ],
-                            "originalTitle": "Futures"
-                        },
-                        {
-                            "title": "Bonds",
-                            "symbols": [
-                            {
-                                "s": "CME:GE1!",
-                                "d": "Eurodollar"
-                            },
-                            {
-                                "s": "CBOT:ZB1!",
-                                "d": "T-Bond"
-                            },
-                            {
-                                "s": "CBOT:UB1!",
-                                "d": "Ultra T-Bond"
-                            },
-                            {
-                                "s": "EUREX:FGBL1!",
-                                "d": "Euro Bund"
-                            },
-                            {
-                                "s": "EUREX:FBTP1!",
-                                "d": "Euro BTP"
-                            },
-                            {
-                                "s": "EUREX:FGBM1!",
-                                "d": "Euro BOBL"
-                            }
-                            ],
-                            "originalTitle": "Bonds"
-                        },
-                        {
-                            "title": "Forex",
-                            "symbols": [
-                            {
-                                "s": "FX:EURUSD",
-                                "d": "EUR to USD"
-                            },
-                            {
-                                "s": "FX:GBPUSD",
-                                "d": "GBP to USD"
-                            },
-                            {
-                                "s": "FX:USDJPY",
-                                "d": "USD to JPY"
-                            },
-                            {
-                                "s": "FX:USDCHF",
-                                "d": "USD to CHF"
-                            },
-                            {
-                                "s": "FX:AUDUSD",
-                                "d": "AUD to USD"
-                            },
-                            {
-                                "s": "FX:USDCAD",
-                                "d": "USD to CAD"
-                            }
-                            ],
-                            "originalTitle": "Forex"
-                        }
-                        ]
+                        "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
                     }
                         </script>
                     </div>
@@ -824,23 +715,23 @@
             		<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <!-- TradingView Widget BEGIN -->
                     <div class="tradingview-widget-container">
-                    <div class="tradingview-widget-container__widget"></div>
-                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
-                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-                    {
-                    "width": "1110",
-                    "height": 523,
-                    "defaultColumn": "overview",
-                    "defaultScreen": "general",
-                    "market": "forex",
-                    "showToolbar": true,
-                    "colorTheme": "light",
-                    "locale": "en"
+                        <div class="tradingview-widget-container__widget"></div>
+                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+                        {
+                        "width": "100%",
+                        "height": "500",
+                        "defaultColumn": "overview",
+                        "defaultScreen": "general",
+                        "market": "forex",
+                        "showToolbar": true,
+                        "colorTheme": "light",
+                        "locale": "en"
                     }
-                    </script>
+                        </script>
                     </div>
                     <!-- TradingView Widget END -->
-            			</div>
+            		</div>
             			<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 							<!-- TradingView Widget BEGIN -->
 							<div class="widget-hold">
@@ -850,8 +741,8 @@
                                 <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
                                 {
-                                "width": "1110",
-                                "height": "490",
+                                "width": "100%",
+                                "height": "500",
                                 "defaultColumn": "overview",
                                 "screener_type": "crypto_mkt",
                                 "displayCurrency": "USD",
@@ -931,8 +822,8 @@
                         <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
                         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
                         {
-                        "width": "1110",
-                        "height": 450,
+                        "width": "100%",
+                        "height": 500,
                         "symbolsGroups": [
                         {
                             "name": "Indices",
@@ -1123,168 +1014,6 @@
             </div>
         </div>
         
-    </div>
-</div>
-<div class="fr pt-5 pb-5" style="background-color: #2E2E30;">
-    <div class="container">
-        <div class="row step-list">
-            <div class="col-md-6 step-list__item">
-                <h3>LATEST DEPOSIT</h3>
-                <div class="step-body table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th class="text-center">#</th>
-                                <th class="text-center">Gateway</th>
-                                <th class="text-center">Name</th>
-                                <th class="text-center">Amount</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                                                                                                                                                            <tr>
-                                <td class="text-center">1</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Vicki Brabston</td>
-                                <td style="white-space: nowrap;" class="text-center">$4,414</td>
-                            </tr>
-                                                                                                    <tr>
-                                <td class="text-center">2</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Sixta Auvil</td>
-                                <td style="white-space: nowrap;" class="text-center">$7,186</td>
-                            </tr>
-                                                                                                    <tr>
-                                <td class="text-center">3</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Hoa Moesch</td>
-                                <td style="white-space: nowrap;" class="text-center">$6,807</td>
-                            </tr>
-                                                                                                    <tr>
-                                <td class="text-center">4</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Cecelia Clugston</td>
-                                <td style="white-space: nowrap;" class="text-center">$9,536</td>
-                            </tr>
-                                                                                                    <tr>
-                                <td class="text-center">5</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Nelida Starcevic</td>
-                                <td style="white-space: nowrap;" class="text-center">$4,940</td>
-                            </tr>
-                                                                                                    <tr>
-                                <td class="text-center">6</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Jazmine Wiesel</td>
-                                <td style="white-space: nowrap;" class="text-center">$7,938</td>
-                            </tr>
-                                                                                                    <tr>
-                                <td class="text-center">7</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Eulalia Robirds</td>
-                                <td style="white-space: nowrap;" class="text-center">$14,553</td>
-                            </tr>
-                                                                                                    <tr>
-                                <td class="text-center">8</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Palma Naill</td>
-                                <td style="white-space: nowrap;" class="text-center">$4,705</td>
-                            </tr>
-                                                                                                    <tr>
-                                <td class="text-center">9</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Bridgett Lotze</td>
-                                <td style="white-space: nowrap;" class="text-center">$6,638</td>
-                            </tr>
-                                                                                                    <tr>
-                                <td class="text-center">10</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Fairy Klande</td>
-                                <td style="white-space: nowrap;" class="text-center">$7,940</td>
-                            </tr>
-                         
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col-md-6 step-list__item">
-                <h3>LATEST WITHDRAWAL</h3>
-                <div class="step-body table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th class="text-center">#</th>
-                                <th class="text-center">Gateway</th>
-                                <th class="text-center">Name</th>
-                                <th class="text-center">Amount</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                                                                                                                                                                                                            <tr>
-                                <td class="text-center">1</td>
-                                <td class="text-center">Bank Transfer</td>
-                                <td class="text-center">Jaime Sword</td>
-                                <td style="white-space: nowrap;" class="text-center">$115,508</td>
-                            </tr>
-                                                                                                                            <tr>
-                                <td class="text-center">2</td>
-                                <td class="text-center">Ethereum</td>
-                                <td class="text-center">Jamey Volpa</td>
-                                <td style="white-space: nowrap;" class="text-center">$142,739</td>
-                            </tr>
-                                                                                                                            <tr>
-                                <td class="text-center">3</td>
-                                <td class="text-center">Bank Transfer</td>
-                                <td class="text-center">Devorah Rellihan</td>
-                                <td style="white-space: nowrap;" class="text-center">$108,437</td>
-                            </tr>
-                                                                                                                            <tr>
-                                <td class="text-center">4</td>
-                                <td class="text-center">Bank Transfer</td>
-                                <td class="text-center">Colby Mathre</td>
-                                <td style="white-space: nowrap;" class="text-center">$62,438</td>
-                            </tr>
-                                                                                                                            <tr>
-                                <td class="text-center">5</td>
-                                <td class="text-center">Ethereum</td>
-                                <td class="text-center">Trula Keltt</td>
-                                <td style="white-space: nowrap;" class="text-center">$57,670</td>
-                            </tr>
-                                                                                                                            <tr>
-                                <td class="text-center">6</td>
-                                <td class="text-center">Ethereum</td>
-                                <td class="text-center">Rose Mansir</td>
-                                <td style="white-space: nowrap;" class="text-center">$189,669</td>
-                            </tr>
-                                                                                                                            <tr>
-                                <td class="text-center">7</td>
-                                <td class="text-center">Ethereum</td>
-                                <td class="text-center">Calandra Sager</td>
-                                <td style="white-space: nowrap;" class="text-center">$184,998</td>
-                            </tr>
-                                                                                                                            <tr>
-                                <td class="text-center">8</td>
-                                <td class="text-center">Ethereum</td>
-                                <td class="text-center">Amos Hixon</td>
-                                <td style="white-space: nowrap;" class="text-center">$60,098</td>
-                            </tr>
-                                                                                                                            <tr>
-                                <td class="text-center">9</td>
-                                <td class="text-center">Bank Transfer</td>
-                                <td class="text-center">Roberta Valliere</td>
-                                <td style="white-space: nowrap;" class="text-center">$114,893</td>
-                            </tr>
-                                                                                                                            <tr>
-                                <td class="text-center">10</td>
-                                <td class="text-center">Bitcoin</td>
-                                <td class="text-center">Mardell Nemunaitis</td>
-                                <td style="white-space: nowrap;" class="text-center">$67,461</td>
-                            </tr>
-                         
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>  
     </div>
 </div>
 <!-- SECTION CONTENT START -->
