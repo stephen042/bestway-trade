@@ -26,7 +26,7 @@
                             </div>
                         </li> <!-- end Dashboard Menu -->
 
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarsignal" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarsignal">
                                 <i class="ri-bar-chart-line"></i> <span data-key="t-dashboards">Signals</span>
                             </a>
@@ -40,7 +40,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="all_trades.php">
                                 <i class="ri-arrow-left-down-line "></i> <span data-key="t-widgets">All Trades</span>
@@ -66,16 +66,16 @@
                                 <i class="ri-arrow-left-down-line "></i> <span data-key="t-widgets">Plan Request</span>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link menu-link" href="sub_request.php">
                                 <i class="ri-arrow-left-down-line "></i> <span data-key="t-widgets">Paid Subscriptions </span>
                             </a>
-                        </li>
-                        <li class="nav-item">
+                        </li> -->
+                        <!-- <li class="nav-item">
                             <a class="nav-link menu-link" href="Ai_trading.php">
                                 <i class="ri-bar-chart-box-fill"></i> <span data-key="t-widgets">Ai_trading</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarstakes" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarstakes">
                                 <i class="ri-bar-chart-line"></i> <span data-key="t-dashboards">Stakes Management</span>
@@ -99,11 +99,11 @@
                                 <i class="ri-arrow-left-down-line "></i> <span data-key="t-widgets">Deposits Request</span>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link menu-link" href="subdeposit.php">
                                 <i class="ri-arrow-left-down-line "></i> <span data-key="t-widgets">Subscription Deposits Request</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="withdraw.php">
                                 <i class="ri-arrow-right-up-fill"></i> <span data-key="t-widgets">Withdrawal Request</span>
@@ -126,7 +126,7 @@
                             </div>
                         </li>
 
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarplansAi" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarplansAi">
                                 <i class=" ri-file-paper-2-line "></i> <span data-key="t-dashboards">Manage -Ai-trading Plans</span>
                             </a>
@@ -158,7 +158,7 @@
 
                                 </ul>
                             </div>
-                        </li>
+                        </li> -->
                         <!-- end Dashboard Menu -->
 
                         <li class="nav-item">
