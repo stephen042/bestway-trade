@@ -10,4 +10,17 @@
     <link rel="shortcut icon" type="image/png" href="../assets/img/logo.png">
     <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+    <!-- crisp Live Chat -->
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "ec939608-ebcf-4fca-877e-a93f696b171b";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
 </head>

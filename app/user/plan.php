@@ -7,9 +7,16 @@ if ($verify == "0" ) {
 
 
 $msg = "";
+$err  = "";
 
 if (isset($_POST['request'])) {
-	$plan_id = $_POST['plan_id'];
+
+    $min = $_POST['plan_min'];
+
+    if ($balance < $min) {
+        $err = 'Insufficient Balance to place request';
+    }else {
+        $plan_id = $_POST['plan_id'];
 	$dele = mysqli_query($link, "DELETE FROM package_request WHERE email = '$email' ");
 	if ($dele) {
 		$insert = mysqli_query($link, "INSERT INTO package_request (email, plan_id) VALUES ('$email', '$plan_id') ");
@@ -17,7 +24,8 @@ if (isset($_POST['request'])) {
 			$msg = "Plan request sent. you will receive an email shortly";
 		}
 	}
-	
+    }
+
 }
 ?>
 
@@ -35,6 +43,17 @@ if ($msg != "") {
 	   window.location.href = 'plan.php'
 	  },
 	);
+</script>";
+}
+?>
+<?php
+if ($err != "") {
+    echo "<script>
+Notiflix.Report.failure(
+  'Insufficient Balance',
+  '" . $err  . "',
+  'OK',
+);
 </script>";
 }
 ?>
@@ -87,14 +106,15 @@ if ($msg != "") {
                                             <b>1.1</b>
                                         </p><br> -->
 
-                                        <p style="color: rgba(180, 180, 180, 0.856)">Demo Trading</p>
+                                        <!-- <p style="color: rgba(180, 180, 180, 0.856)">Demo Trading</p> -->
 
-                                        <p style="color: rgba(180, 180, 180, 0.856)">Negative Balance Protection</p>
+                                        <p style="color: rgba(180, 180, 180, 0.856)">Positive Balance Protection</p>
                                         <br>
 
                                         <p>
                                         <form action="plan.php" method="POST">
                                              <input type="hidden" name="plan_id" value="<?php echo $pp['id'] ?>">
+                                             <input type="hidden" name="plan_min" value="<?php echo $pp['froms'] ?>">
                                          <?php  
                                          $planId = $pp['id'];
                                          	$reqch = mysqli_query($link, "SELECT * FROM package_request WHERE email = '$email' AND plan_id = '$planId' ");
