@@ -108,7 +108,7 @@ if (isset($_POST['reg'])) {
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from BestWayTrade.net/register.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Sep 2023 23:46:19 GMT -->
+<!-- Mirrored from BestWayTrades.net/register.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Sep 2023 23:46:19 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
@@ -134,7 +134,7 @@ if (isset($_POST['reg'])) {
     <div class="other-banner d-flex">
         <div class="container my-auto mx-auto">
             <h2><strong>Create Account<br>(Create an account now and the join millions who have chosen
-                    BestWayTrade)</strong></h2>
+                    BestWayTrades)</strong></h2>
         </div>
     </div>
     <div class="other-content">
