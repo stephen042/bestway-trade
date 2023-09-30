@@ -90,7 +90,7 @@ $email = $password= "";
         <form class="login100-form validate-form" method="post" action="login.php">
          
           <span class="login100-form-title p-b-48">
-            <img src="../img/logo.png" alt="logo" height="40" style="width: auto;">
+            <span class="btn btn-info h1 rounded" style="font-family: 'Times New Roman', Times, serif;"> Bestway Trades</span>
           </span>
            <span class="login100-form-title p-b-26">
             Welcome
