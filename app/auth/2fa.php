@@ -88,7 +88,7 @@ if (isset($_POST['submit'])) {
                             <div class="col-md-8 col-lg-6">
                                 <div class="text-center">
                                     <a class="navbar-brand" href="index-2.html">
-                                        <img src="../img/logo.png" alt="logo" height="36" class="d-inline-block">
+                                        <span class="btn btn-info h1 rounded" style="font-family: 'Times New Roman', Times, serif;"> Bestway Trades</span>
                                     </a>
                                     <p class="lead mt-1 mb-3">Welcome back <?php echo ucfirst($fname) ?>!</p>
                                     <?php  
